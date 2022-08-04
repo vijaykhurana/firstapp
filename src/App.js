@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Routes,Route} from 'react-router-dom';
 import './App.css';
 import CounterButton from './CounterButton';
@@ -22,7 +21,6 @@ const students = [
     name: 'reema',
     age:28
   }
-
 ]
   return (   
     <BrowserRouter>    
@@ -37,9 +35,6 @@ const students = [
       </Route>
     </Routes>
     </BrowserRouter>
-
-    
-
   );
 }
 export default App;
