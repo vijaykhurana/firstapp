@@ -7,6 +7,7 @@ import Home from './Home'
 import Layout from './Layout'
 import Register from './Register';
 import StudentList from './StudentList';
+import GetPost from './GetPost';
 function App() {
 const students = [
   {
@@ -32,6 +33,7 @@ const students = [
           <Route path="/blog" element={<Blog/>} />
           <Route path="/register" element={<Register/>} />
           <Route path="/studentlist" element={<StudentList students={students}/>} />
+          <Route path="/getpost" element={<GetPost/>} />
       </Route>
     </Routes>
     </BrowserRouter>

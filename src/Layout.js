@@ -23,6 +23,9 @@ const Layout = () => {
           <li>
               <Link to="/studentlist">student list</Link>
           </li>
+          <li>
+              <Link to="/getpost">get post</Link>
+          </li>
         </ul>
       </nav>
     <Outlet />
